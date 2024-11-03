@@ -1,0 +1,17 @@
+{
+    "version": "3",
+    "dependencies": [
+        "fmt",
+        "cppzmq",
+        "protobuf",
+        {
+            "name": "pcl",
+            "features": [
+                "vtk",
+                "qt"
+            ]
+        },
+        "glew",
+        "cgal"
+    ]
+}
